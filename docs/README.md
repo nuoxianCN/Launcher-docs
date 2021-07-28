@@ -11,7 +11,3 @@ nuoxian's API建于2020年07月31日 目前日调用次数160w+
 接口失效/有问题等 请联系我 [nuo_xian@qq.com](mailto:nuo_xian@qq.com)
 
 nuoxian's API黑名单列表 [https://nxvav.cn/apifirewall.html](https://nxvav.cn/apifirewall.html)
-
-## 关于赞助
-
-详情查看：无
