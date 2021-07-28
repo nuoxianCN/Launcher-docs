@@ -14,4 +14,5 @@ https://api.nxvav.cn/api/xianyan/?encode=json&charset=utf-8
 ## 调用效果
 <script type="text/javascript" src="https://api.nxvav.cn/api/xianyan/?encode=js&charset=utf-8"></script>
 <div id="nuoxian"><script>xianyan()</script></div>
+
 ## 请求参数
