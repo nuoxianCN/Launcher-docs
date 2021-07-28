@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>nuoxian's API文档</title>
+  <title>nuoxian's API使用文档</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link rel="icon" href="https://api.nxvav.cn/favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="https://api.nxvav.cn/favicon.png" type="image/x-icon" /> 
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
@@ -12,7 +14,7 @@
   <div id="app">加载中...</div>
   <script>
     window.$docsify = {
-      name: 'nuoxian’s API文档',  // 网站昵称
+      name: 'nuoxian’s API使用文档',  // 网站昵称
         search: {  // 网站搜索
           paths: 'auto',
           placeholder: '🔍 搜索',
@@ -32,8 +34,8 @@
       ext: '.md',
       externalLinkTarget: '_self',
       subMaxLevel: 2,
-      auto2top: true,
-      loadSidebar: true
+      auto2top: true, // az
+      loadSidebar: true // az
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.js"></script>
@@ -41,6 +43,8 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <!-- 字数统计 -->
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <!-- 上篇下篇 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   
   <!-- 回到顶部 -->
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.js"></script>
