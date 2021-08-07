@@ -1,3 +1,3 @@
 * 入门
-  * [域名绑定](docs/domain.md)
-  * [0](0)
+  * [绑定域名](docs/bangdinngyuming.md)
+  * [解析域名](docs/jiexiyuming.md)
