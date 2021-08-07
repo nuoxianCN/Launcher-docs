@@ -1,3 +1,2 @@
-* [首页](/)
-
-* [1、域名绑定](docs/domain.md)
+* 入门
+  * [域名绑定](docs/domain.md)
