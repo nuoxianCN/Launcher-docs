@@ -6,6 +6,12 @@
 
 1、登录虚拟主机控制面板。
 
+![](https://i.loli.net/2021/08/14/Q46z5WNu8Psj7dq.png)
+
 2、在控制面板的上方导航栏中，选择`域名绑定`>`域名`一栏中输入您需要绑定的域名。
 
+![](https://i.loli.net/2021/08/14/MIvlEf84cU7OY9Z.png)
+
 3、输入完成后，单击`确定`按钮完成绑定域名操作。
+
+![](https://i.loli.net/2021/08/15/HPui5xcjYwWRDmF.png)
