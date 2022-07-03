@@ -18,8 +18,17 @@
 **Tips**：以下指向链接均可以在启动器内下载！不需要前往该链接进行下载扩展功能！！！
 
 角色查询作者：@Azure99（github.com/Azure99/GenshinPlayerQuery）
+
 抽卡记录作者：@biuuu（github.com/biuuu/genshin-wish-export）
+
 自动弹琴作者：@luern0313（github.com/luern0313/WindSong-Lyre-Genshin-Impact）
+
 自动钓鱼作者：@babalae（github.com/babalae/genshin-fishing-toy）
+
 账号切换作者：@babalae（github.com/babalae/genshin-account）
+
 成就识别作者：@babalae（github.com/babalae/genshin-achievement-toy）
+
+### 软件截图
+
+暂无
