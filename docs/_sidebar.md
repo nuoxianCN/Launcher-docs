@@ -1,5 +1,5 @@
 * 开始使用
-  * [绑定域名](docs/bdym.md)
+  * [快速开始](docs/quickstart.md)
   * [CNAME解析](docs/CNAMEjx.md)
 
 * 功能帮助
