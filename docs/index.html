@@ -15,13 +15,13 @@
   <script>
     window.$docsify = {
       name: '帮助文档',  // 网站昵称
+      ga: '',
         search: {  // 网站搜索
           paths: 'auto',
-          placeholder: '🔍 搜索',
-          noData: '😒 找不到结果',
-          // Headline depth, 1 - 6
-          depth: 6,
-          maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+          placeholder: '🔍 搜索', // 显示默认的搜索内容
+          noData: '😒 找不到结果', // 找不到内容返回的内容
+          depth: 6, // 搜索标题的最大层级
+          maxAge: 86400000 // 过期时间，单位毫秒，默认一天
         },
         count:{ // 字数统计
           countable:true,
@@ -29,10 +29,13 @@
           color:'rgb(90,90,90)',
           language:'chinese'
         },
+      plugins: [
+          EditOnGithubPlugin.create('https://github.com/nuoxianCN/Launcher-docs/tree/main/docs/', null, function(file) {if (file.indexOf('en') === -1 { return '编辑' } else { return 'edit on git' }}))
+      ]
         
       repo: '',
       ext: '.md',
-      //externalLinkTarget: '_self',
+      //externalLinkTarget: '_self', //外链跳转方式
       subMaxLevel: 2,
       auto2top: true, // 切换页面自动跳转到页面顶部
       loadSidebar: true // 侧边支持
@@ -40,15 +43,20 @@
   </script>
   <script src="//lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/docsify/4.12.2/docsify.js"></script>
   <!-- 全局搜索 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/docsify/4.12.2/plugins/search.min.js"></script>
   <!-- 字数统计 -->
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
   <!-- 上篇下篇 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  
+  <!-- emoji解析 -->
+  <script src="//lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/docsify/4.12.2/plugins/emoji.min.js"></script>
+  <!-- 在Github上编辑选项 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   <!-- 回到顶部 -->
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.goup.js"></script>
+  <!-- 谷歌统计 -->
+  <script src="//lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/docsify/4.12.2/plugins/ga.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function () {
       $.goup({
