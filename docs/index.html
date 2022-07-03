@@ -15,7 +15,7 @@
   <script>
     window.$docsify = {
       name: '帮助文档',  // 网站昵称
-      ga: '',
+      ga: 'G-EJ4H8V1H9W',
         search: {  // 网站搜索
           paths: 'auto',
           placeholder: '🔍 搜索', // 显示默认的搜索内容
@@ -29,6 +29,18 @@
           color:'rgb(90,90,90)',
           language:'chinese'
         },
+      plngins: [
+        EditOnGithubPlugin.create(
+          '',
+          null,
+          function(file) {
+            if (file.indexOf('en') === -1) {
+              return '编辑'
+            } else {
+              return 'edit on git'
+          }
+        )
+      ]
       repo: '',
       ext: '.md',
       //externalLinkTarget: '_self', //外链跳转方式
@@ -44,6 +56,8 @@
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
   <!-- 上篇下篇 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- 在Github上编辑 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   <!-- 回到顶部 -->
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.goup.js"></script>
