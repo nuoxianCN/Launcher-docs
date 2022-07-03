@@ -1,6 +1,6 @@
 * 开始使用
   * [快速开始](docs/quickstart.md)
-  * [CNAME解析](docs/CNAMEjx.md)
+  * [功能一览](docs/introduce.md)
 
 * 功能帮助
   * [修改密码](docs/xgmm.md)
@@ -12,18 +12,8 @@
   * [更改PHP版本](docs/ggphpbb.md)
 
 * 常见问题
-  * [黑名单](docs/hmd.md)
-  * [防盗链](docs/fdl.md)
-  * [参数过滤](docs/csgl.md)
-  * [带宽限制](docs/dkxz.md)
-  * [缓存设置](docs/hcsz.md)
-  * [清除缓存](docs/qchc.md)
-  * [页面压缩](docs/ymys.md)
-  * [MIME设置](docs/mimesz.md)
-  * [默认文件](docs/mrwj.md)
-  * [域名跳转](docs/ymtz.md)
-  * [重起进程](docs/cqjc.md)
-  * [防CC攻击](docs/fccgj.md)
-  * [防木马上传](docs/fmmsc.md)
-  * [错误码定义](docs/cwmdy.md)
-  * [数据库管理](docs/sjkgl.md)
+  * [程序问题](docs/hmd.md)
+  * [转服问题](docs/fdl.md)
+  * [无法自动钓鱼]()
+  * [自动钓鱼无法启动]()
+  * [游戏报错 31-4302]()
