@@ -1,8 +1,8 @@
-* 入门
+* 开始使用
   * [绑定域名](docs/bdym.md)
   * [CNAME解析](docs/CNAMEjx.md)
 
-* 基础
+* 功能帮助
   * [修改密码](docs/xgmm.md)
   * [上传文件](docs/scwj.md)
   * [数据备份](docs/sjbf.md)
@@ -11,7 +11,7 @@
   * [伪静态设置](docs/wjtsz.md)
   * [更改PHP版本](docs/ggphpbb.md)
 
-* 进阶
+* 常见问题
   * [黑名单](docs/hmd.md)
   * [防盗链](docs/fdl.md)
   * [参数过滤](docs/csgl.md)
