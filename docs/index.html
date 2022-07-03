@@ -29,10 +29,6 @@
           color:'rgb(90,90,90)',
           language:'chinese'
         },
-      plugins: [
-          EditOnGithubPlugin.create('https://github.com/nuoxianCN/Launcher-docs/tree/main/docs/', null, function(file) {if (file.indexOf('en') === -1 { return '编辑' } else { return 'edit on git' }}))
-      ]
-        
       repo: '',
       ext: '.md',
       //externalLinkTarget: '_self', //外链跳转方式
@@ -50,8 +46,6 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <!-- emoji解析 -->
   <script src="//lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/docsify/4.12.2/plugins/emoji.min.js"></script>
-  <!-- 在Github上编辑选项 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   <!-- 回到顶部 -->
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.goup.js"></script>
