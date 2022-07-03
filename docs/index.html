@@ -29,15 +29,8 @@
           language:'chinese'
         },
       plngins: [
-        EditOnGithubPlugin.create(
-          'https://github.com/nuoxianCN/Launcher-docs/blob/main/docs/',
-          null,
-          function(file) {
-            if (file.indexOf('en') === -1) {
-              return '编辑'
-            } else {
-              return 'edit on git'
-          }
+        EditOnGithubPlugin.create (
+          'https://github.com/nuoxianCN/Launcher-docs/blob/main/docs/'
         )
       ]
       repo: '',
