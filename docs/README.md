@@ -8,16 +8,12 @@
 * **快速国际服(国服)切换，无需下载二个客户端**
 * **自定义启动器背景，个性化的启动器**
 * **快速下载，一点下载扩展功能**
-* **角色查询，一个电脑端米游社**
 * **抽卡记录，欧皇非酋一眼便知**
 * **自动弹琴，别人世界要装大逼**
 * **自动钓鱼，重复鼠标就不存在**
 * **账号切换，方便快捷抢先一步**
-* **成就识别，看看我有什么没做**
 
 **Tips**：以下指向链接均可以在启动器内下载！不需要前往该链接进行下载扩展功能！！！
-
-角色查询作者：@Azure99（github.com/Azure99/GenshinPlayerQuery）
 
 抽卡记录作者：@biuuu（github.com/biuuu/genshin-wish-export）
 
@@ -26,8 +22,6 @@
 自动钓鱼作者：@babalae（github.com/babalae/genshin-fishing-toy）
 
 账号切换作者：@babalae（github.com/babalae/genshin-account）
-
-成就识别作者：@babalae（github.com/babalae/genshin-achievement-toy）
 
 ### 软件截图
 
